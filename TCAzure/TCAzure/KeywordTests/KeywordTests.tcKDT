@@ -3,5 +3,6 @@
 	<children>
 		<child name="OrdersApp" key="{37BF4C31-71C6-412A-ACB5-12B5E5896E41}" path="OrdersApp.tcKDTest" />
 		<child name="Test1" key="{DC6403EB-C00F-4B50-8527-FC4757FCF896}" path="Test1.tcKDTest" />
+		<child name="Test2" key="{20A36F2D-CE58-4848-A768-5C844C0D3DF7}" path="Test2.tcKDTest" />
 	</children>
 </Root>
