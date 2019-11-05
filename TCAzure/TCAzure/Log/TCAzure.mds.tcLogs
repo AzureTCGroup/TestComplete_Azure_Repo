@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43774.5884771181"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{590808EA-6586-4919-8860-DF0CE13C8450}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Test1]"/>
+				<Prp name="relpath" type="S" value="11_5_2019_2_07 PM_24_423\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43774.5929703356"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{DB11E771-E173-43B1-8B97-B3109CB466CE}"/>
+				<Prp name="nameofroot" type="S" value="TCAzure"/>
+				<Prp name="relpath" type="S" value="11_5_2019_2_13 PM_52_637\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43774.6024391782"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{973B5E15-43F5-41DA-A27E-C2A836CCCE98}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [OrdersApp]"/>
+				<Prp name="relpath" type="S" value="11_5_2019_2_27 PM_30_745\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43774.6035456597"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A14E50F5-DD81-4725-BD8F-8329969F2968}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [OrdersApp]"/>
+				<Prp name="relpath" type="S" value="11_5_2019_2_29 PM_06_345\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

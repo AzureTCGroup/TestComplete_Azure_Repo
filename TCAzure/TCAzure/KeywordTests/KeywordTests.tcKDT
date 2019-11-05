@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<child name="OrdersApp" key="{37BF4C31-71C6-412A-ACB5-12B5E5896E41}" path="OrdersApp.tcKDTest" />
+	</children>
+</Root>

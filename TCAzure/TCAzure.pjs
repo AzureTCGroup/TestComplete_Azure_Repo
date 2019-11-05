@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{040C5401-43E9-4DE8-80D5-3B1319A272EB}">
+	<children>
+		<child name="TCAzure" key="{ADD1D3B3-04FD-4346-A7CE-64FB24332739}" path="TCAzure\TCAzure.mds" />
+	</children>
+	<testItems key="{AF7082CB-ABB7-4500-AD84-5A0164A59ED0}">
+		<children>
+			<testItem key="{ADD1D3B3-04FD-4346-A7CE-64FB24332739}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{EDA8CE5F-F412-4920-A036-20D0F5B41540}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{2DC4A696-55C7-4931-A824-5428BC64FDAB}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="True" />
+	</extender>
+</Root>
