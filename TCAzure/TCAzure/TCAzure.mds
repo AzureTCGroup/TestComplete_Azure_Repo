@@ -14,6 +14,10 @@
 				<testParameters />
 				<children />
 			</testItem>
+			<testItem name="Notepad" key="{766E16D6-B389-4FBA-B944-ADE8BB6A7286}" group="False" enabled="True" testMoniker="KDT\{20A36F2D-CE58-4848-A768-5C844C0D3DF7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{F8F1894F-5437-4840-8F5E-6662CDF29142}">
